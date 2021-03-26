@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+   integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+   <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+   <div class="background">
+      <video autoplay muted loop>
+         <source src="video/Designer Working Tablet.mp4" type="video/mp4">
+      </video>
+   </div>
+   <div class="container">
+         <div class="home">
+            <div class="navbar" id="home">
+               <p class="logo">PRIYANSHU<br>YADAV</p>
+               <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#skill">Skills</a></li>
+                  <li><a href="">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+            </div>
+
+            <div class="content">
+                  <h1>HI! I'M A <br>WEB DEVELOPER</h1>
+                  <p>I develop responsive websites with a<br> clean and stylish UI</p>
+                  <div>
+                     <a href="https://www.instagram.com/priyanshu8462"><i class="fab fa-instagram"></i></a>
+                     <a href="https://www.linkedin.com/in/priyanshu-yadav-201a7a14b/"><i class="fab fa-linkedin"></i></a>
+                     <a href="https://github.com/priyanshu8462"><i class="fab fa-github"></i></a>
+                  </div>
+            </div>
+             
+            <img src="images/backgroud-removebg-preview.png" class="image">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="blob">
+               <path fill="#454545" d="M65.9,-17.2C75.1,6.9,65.2,41.5,44.8,54.6C24.5,67.8,-6.3,59.4,-30,42.1C-53.6,24.7,-70.1,-1.7,-64,-21.7C-57.8,-41.6,-28.9,-55.1,-0.3,-55C28.3,-54.9,56.6,-41.3,65.9,-17.2Z" transform="translate(100 100)" />
+            </svg>
+         </div>
+
+         <div class="services" id="services">
+            <div class="service">
+               <img src="images/responsive-icon-13-removebg-preview.png" style="margin-bottom: 42px;">
+               <p class="service-heading">RESPONSIVE</p>
+               <p class="service-description">Website that can adapt to all kind of screens<br> be it smartphone, tablet or desktop</p>
+            </div>
+            
+            <div class="service">
+               <img src="images/55018-pencil-black-circular-button-removebg-preview.png">
+               <p class="service-heading">CLEAN AND STYLISH DESIGN</p>
+               <p class="service-description">Clean and Stylish designs that catches attention of user</p>
+            </div>
+            
+            <div class="service">
+               <img src="images/247support-removebg-preview.png">
+               <p class="service-heading">24*7 SUPPORT</p>
+               <p class="service-description">Free future support for our clients</p>
+            </div>
+         </div>
+
+         <div class="skills slider" id="skill">
+            <button class="prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="next"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="slides-container">
+               <div class="slide active">
+                  <h1>Frontend</h1>
+                  <div class="frontend-stack">
+                     <img src="images/html.png">
+                     <img src="images/css-3.png">
+                     <img src="images/js.png">
+                  </div>
+               </div>
+
+               <div class="slide">
+                  <h1>Developer Stack</h1>
+                  <div class="backend-stack">
+                     <img src="images/mongodb.png">
+                     <img src="images/express.png">
+                     <img src="images/react.png">
+                     <img src="images/nodejs.png">
+                  </div>
+               </div>
+
+               <div class="slide">
+                  <h1>Udemy Certified Full Stack Developer</h1>
+                  <img src="images/certificate.PNG" class="certificate">
+               </div>
+
+               <div class="slide">
+                  <h1>Programming Languages Known</h1>
+                  
+                  <div class="programming-languages">
+                     <img src="images/c++.png">
+                     <img src="images/js.png">
+                     <img src="images/python.png">
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="contact" id="contact">
+            <h1>CONTACT ME</h1>
+            <form action="mailto:noturbusiness820@gmail.com?subject=get to us" method="pOST" enctype="text/plain">
+               <label for="name">Name</label>
+               <input type="text" placeholder="Name" id="name" name="name" value="" autocomplete="off">
+               <label for="email">Email</label>
+               <input type="email" placeholder="Email" id="email" name="email" value="" autocomplete="off"><br>
+               <textarea placeholder="Message" name="message" value=""></textarea><br>
+               <input type="submit" class="btn send-msg">SEND MESSAGE</input>
+            </form>
+         </div>
+   </div>
+   <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+   <script src="app.js"></script>
+</body>
+</html>
